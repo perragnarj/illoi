@@ -16,7 +16,7 @@
   margin: 0;
 }
 .case__info {
-  color: $text-light;
+  color: lighten($text, 10%);
   font-size: 0.9rem;
 }
 .case__text {

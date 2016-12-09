@@ -1,5 +1,9 @@
-.inner {
+.inner--narrow {
   max-width: 700px;
+  margin: 0 auto;
+}
+.inner--wide {
+  max-width: 1200px;
   margin: 0 auto;
 }
 .grid {

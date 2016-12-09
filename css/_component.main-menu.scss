@@ -8,5 +8,10 @@
   text-decoration: none;
   font-family: $sans-serif;
   font-weight: bold;
-  font-size: 1.2rem;
+  padding-bottom: 10px;
+}
+.main-menu__link:hover,
+.main-menu__link:active,
+.main-menu__link:focus {
+  border-bottom: 3px solid white;
 }

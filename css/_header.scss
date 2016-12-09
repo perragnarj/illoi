@@ -1,6 +1,13 @@
 header {
 	height: 500px;
-	background: $main;
+	/*background: $main;*/
+	background:
+	radial-gradient(circle, transparent 20%, $main 20%, $main 80%, transparent 80%, transparent),
+	radial-gradient(circle, transparent 20%, $main 20%, $main 80%, transparent 80%, transparent) 50px 50px,
+	linear-gradient($main-light 8px, transparent 8px) 0 -4px,
+	linear-gradient(90deg, $main-light 8px, transparent 8px) -4px 0;
+	background-color: $main;
+	background-size:100px 100px, 100px 100px, 50px 50px, 50px 50px;
 	color: white;
 	margin-bottom: 100px;
 }

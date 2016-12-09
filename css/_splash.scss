@@ -1,5 +1,4 @@
 .splash {
-  padding: 40px 0;
   text-align: center;
 }
 .splash__text {
@@ -8,4 +7,18 @@
   font-family: $sans-serif;
   padding: 0;
   margin: 0;
+}
+.splash__link {
+  text-decoration: none;
+  opacity: 0.85;
+  transition: ease all 0.2s;
+}
+.splash__link:hover {
+  opacity: 1;
+  transition: ease all 0.2s;
+}
+.splash__get-it {
+  width: 153px;
+  margin: 0 10px;
+  border: none;
 }

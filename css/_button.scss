@@ -1,0 +1,13 @@
+.button {
+	text-decoration: none;
+	border-radius: 3px;
+	padding:13px 15px;
+	background: $main;
+	color: white;
+	font-family: $sans-serif;
+	font-weight: bold;
+}
+.button--invert {
+	background: white;
+	color: $main;
+}

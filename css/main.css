@@ -5,7 +5,8 @@ body {
   font-family: "Arvo";
   font-size: 18px;
   line-height: 2;
-  color: #4B4B4B; }
+  color: #4B4B4B;
+  min-height: 3000px; }
 
 .inner {
   max-width: 700px;
@@ -42,11 +43,75 @@ body {
   -ms-flex-positive: 1;
   flex-grow: 1; }
 
+.space--top-s {
+  margin-top: 10px; }
+
+.space--top-m {
+  margin-top: 20px; }
+
+.space--top-l {
+  margin-top: 40px; }
+
+.space--top-xl {
+  margin-top: 80px; }
+
+.space--right-s {
+  margin-right: 10px; }
+
+.space--right-m {
+  margin-right: 20px; }
+
+.space--right-l {
+  margin-right: 40px; }
+
+.space--right-xl {
+  margin-right: 80px; }
+
+.space--bottom-s {
+  margin-bottom: 10px; }
+
+.space--bottom-m {
+  margin-bottom: 20px; }
+
+.space--bottom-l {
+  margin-bottom: 40px; }
+
+.space--bottom-xl {
+  margin-bottom: 80px; }
+
+.space--left-s {
+  margin-left: 10px; }
+
+.space--left-m {
+  margin-left: 20px; }
+
+.space--left-l {
+  margin-left: 40px; }
+
+.space--left-xl {
+  margin-left: 80px; }
+
 header {
   height: 500px;
-  background: #5CCACB;
+  /*background: $main;*/
+  background: radial-gradient(circle, transparent 20%, #5CCACB 20%, #5CCACB 80%, transparent 80%, transparent), radial-gradient(circle, transparent 20%, #5CCACB 20%, #5CCACB 80%, transparent 80%, transparent) 50px 50px, linear-gradient(#68cecf 8px, transparent 8px) 0 -4px, linear-gradient(90deg, #68cecf 8px, transparent 8px) -4px 0;
+  background-color: #5CCACB;
+  background-size: 100px 100px, 100px 100px, 50px 50px, 50px 50px;
   color: white;
   margin-bottom: 100px; }
+
+.button {
+  text-decoration: none;
+  border-radius: 3px;
+  padding: 13px 15px;
+  background: #5CCACB;
+  color: white;
+  font-family: "Asap";
+  font-weight: bold; }
+
+.button--invert {
+  background: white;
+  color: #5CCACB; }
 
 .logo {
   padding: 80px 70px; }
@@ -68,7 +133,7 @@ header {
   text-align: right; }
 
 .main-menu__link {
-  margin-left: 30px;
+  margin-left: 40px;
   color: white;
   text-decoration: none;
   font-family: "Asap";
@@ -76,7 +141,6 @@ header {
   font-size: 1.2rem; }
 
 .splash {
-  padding: 40px 0;
   text-align: center; }
 
 .splash__text {
@@ -85,6 +149,20 @@ header {
   font-family: "Asap";
   padding: 0;
   margin: 0; }
+
+.splash__link {
+  text-decoration: none;
+  opacity: 0.85;
+  transition: ease all 0.2s; }
+
+.splash__link:hover {
+  opacity: 1;
+  transition: ease all 0.2s; }
+
+.splash__get-it {
+  width: 153px;
+  margin: 0 10px;
+  border: none; }
 
 .case {
   display: -webkit-flex;
@@ -96,7 +174,8 @@ header {
 
 .case__image {
   margin-bottom: 50px;
-  width: 100%; }
+  margin-right: -150px;
+  margin-left: -150px; }
 
 .case__header {
   width: 50%;
